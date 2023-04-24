@@ -49,7 +49,8 @@ Além dos parâmetros acima, foi utilizada a classe HallOfFame para selecionar o
 
 Para demonstrar o ganho com a otimização, foi gerado um cenário inicial (Cenário Inicial.ipynb), onde foi definido visualmente qual seria a melhor rota para cada Embarcação.
 
-Tanto no cenário inicial, quanto na otimização foi gerado no código Python um arquivo de saída para ser carregado no Power BI. Para se chegar no cálculo da emissão de CO2 foram utilizadas as seguintes fórmulas:
+Tanto no cenário inicial, quanto na otimização foi gerado no código Python, um arquivo de saída para ser carregado no Power BI. Para se chegar no cálculo da emissão de CO2 foram utilizadas as seguintes fórmulas:
+
 Tempo = Distancia (cálculo citado na Modelagem do estudo) / Velocidade (informação da Embarcação) / 24 (horas por dia)
 Emissao = Tempo * Consumo (informação da Embarcação) * 3.18 (transformação do consumo de combustível para emissão de CO2)
 

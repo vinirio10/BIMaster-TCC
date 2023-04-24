@@ -52,13 +52,14 @@ Para demonstrar o ganho com a otimização, foi gerado um cenário inicial (Cen�
 Tanto no cenário inicial, quanto na otimização foi gerado no código Python, um arquivo de saída para ser carregado no Power BI. Para se chegar no cálculo da emissão de CO2 foram utilizadas as seguintes fórmulas:
 
 Tempo = Distancia (cálculo citado na Modelagem do estudo) / Velocidade (informação da Embarcação) / 24 (horas por dia)
+
 Emissao = Tempo * Consumo (informação da Embarcação) * 3.18 (transformação do consumo de combustível para emissão de CO2)
 
 No Power BI (TCC.pbix), para exibir a rota foram criadas duas visões (cenário inicial e otimização) utilizando o componente Rout map (https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa104380985).
 
 Os resultados obtidos para cada cenário foram:
-- Cenário inicial: 3.98 toneladas de CO2
-- Cenário otimizado: 3.37 toneladas de CO2
+- Cenário inicial: ~3.98 toneladas de CO2
+- Cenário otimizado: ~3.37 toneladas de CO2
 
 ### 4. Conclusões
 

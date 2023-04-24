@@ -29,6 +29,7 @@ Para realizar o estudo foram utilizadas três disciplinas:
 - Web Scraping: Após a seleção manual de forma aleatória de dez portos do site: https://navalportoestaleiro.com/portos-do-brasil-conheca-as-principais-instalacoes-portuarias-existentes-no-pais/ foi desenvolvido um código em Python (Scrapping_MarineTraffic.ipynb) aplicando a técnica de Web Scraping no site: https://www.marinetraffic.com/, para obter o posicionamento (latitude e longitude) de cada porto.
 - Otimização: Foi desenvolvido um código em Python para esse problema de rota, tendo como função objetivo a minimização da emissão de CO2.
 - Visualização de dados com Power BI: Foi desenvolvido o painel em Power BI para exibir geograficamente as rotas das Embarcações.
+
 Os dados de Embarcações e Plataformas (incluíndo sua localização) são fictícios. 
 
 ### 2. Modelagem
@@ -41,6 +42,7 @@ O modelagem da otimização com algoritmo genético foi feita em Python (Otimiza
 - Seleção: tools.selTournament
 - Tamanho da população: Quinhentos indivíduos
 - Quantidade de gerações: Cinquenta gerações
+
 Além dos parâmetros acima, foi utilizada a classe HallOfFame para selecionar o melhor indivíduo da população durante o processo de evolução.
 
 ### 3. Resultados
